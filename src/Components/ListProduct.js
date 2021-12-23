@@ -39,6 +39,7 @@ export default function ListProduct(props) {
           <div key={index}>
             <img style={{ width: 200 }} src={img} alt="" />
             <p>{item.name}</p>
+            <p>giường ngủ {item.bedRoom}</p>
           </div>
         );
       })}
